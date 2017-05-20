@@ -1,0 +1,46 @@
+@font-face {
+    font-family: primelight;
+    src: url("../bootstrap/fonts/dekar.otf") format("opentype");
+}*{
+	color:white;
+}
+html,body,li,.btn,span{
+    background:url("../img/bg-2.png");
+	background-size:100% 100%;
+	background-attachment:fixed;
+    font-family:primelight;
+	color:white;
+}
+li:hover,a:hover{
+    background:white;
+}
+li{
+    background:none;
+}
+.row,.thumbnail,.btn,.form-control,.col-sm-6,.col-md-4,.col-md-6,.col-md-8,.col-md-12,.navbar,.panel{
+    border-radius:0px;
+}
+header img{
+    width: 50%;
+}
+.nav,.navbar,ul,li,i,.fa,span{
+    background:none;
+}
+section{
+    border-bottom: 1px solid white;
+}
+#bullets .fa{
+    color:red;
+    margin:5px;
+}
+#bullets{
+    margin-right:1%;
+}
+#bullets li{
+    margin-right: 10px;
+    padding:0;
+    background:none;
+}
+.pager li>a{
+    background:none;
+}

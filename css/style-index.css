@@ -1,0 +1,43 @@
+html{
+    height:100%;
+}
+body{
+    height:100%;
+}
+section{
+    width:100%;
+    min-height:100%;
+    display:table;
+    border-bottom: 1px solid white;
+}
+.container{
+    min-height:100%;
+    display:table-cell;
+    text-align:center;
+    vertical-align:middle;
+}
+#start{
+    background:url("../img/bg-5.png");
+    background-size:100% 100%;
+	background-attachment:fixed;
+	background-position:center;
+}
+#start>.container>img{
+    width:50%;
+    -webkit-animation: fadeInDownBig 1.5s;
+}
+#start>.container>h1{
+    -webkit-animation: fadeInDownBig 1.2s;
+}
+header{
+    position:absolute;
+    top:0;
+    -webkit-animation: fadeOut 0.5s;
+}
+header.fix{
+    position:fixed;
+    top:0;
+    z-index: 999;
+    -webkit-animation: fadeInDownBig 0.5s;
+    background-color:white;
+}
